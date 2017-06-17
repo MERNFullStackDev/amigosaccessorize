@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Amigos Accessorize</title>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/main.css" rel="stylesheet">
+      <link href="css/pop.css" rel="stylesheet">  
+      <link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+      <link rel="stylesheet" type="text/css" href="css/custom.css" />
+      <script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+      <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+      <script type="text/javascript" src="js/jquery.slicebox.js"></script>
+      <script type="text/javascript" src="js/navarrow.slicebox.js"></script>
+      
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid main">
+            <div class="navbar-header">
+              
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <img src="images/logo.png" class="img-responsive logo" alt="Responsive image">
+            </div> <!-- navbar-header -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="main-menu nav navbar-nav navbar-menu navbar-right">
+                <li class=""><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Phone<span class="caret"></span></a>
+                  <ul class="dropdown-menu dropdown-list">
+                    <li><a href="sony.html">Apple</a></li>
+                    <li><a href="sony.html">Samsung</a></li>
+                    <li><a href="sony.html">Sony</a></li>           
+                    <li><a href="sony.html">HTC</a></li>                        
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">iPad<span class="caret"></span></a>
+                  <ul class="dropdown-menu dropdown-list">
+                    <li><a href="sony.html">iPad Pro</a></li>
+                    <li><a href="sony.html">iPad Air 2</a></li>
+                    <li><a href="sony.html">iPad Mini 4</a></li>           
+                    <li><a href="sony.html">iPad Mini 2</a></li>                      
+                  </ul>
+                </li>
+
+                 <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Used<span class="caret"></span></a>
+                  <ul class="dropdown-menu dropdown-list">
+                    <li><a href="sony.html">Apple</a></li>
+                    <li><a href="sony.html">Samsung</a></li>
+                    <li><a href="sony.html">Sony</a></li>           
+                    <li><a href="sony.html">HTC</a></li>                          
+                  </ul>
+                </li>
+
+                  <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accessories<span class="caret"></span></a>
+                  <ul class="dropdown-menu dropdown-list">
+                    <li><a href="sony.html">Apple</a></li>
+                    <li><a href="sony.html">Samsung</a></li>
+                    <li><a href="sony.html">Others</a></li>                       
+                  </ul>
+                </li>
+                 <li><a href="contact-us.html">Contac us</a></li>
+                  <li><a href="#" data-toggle="modal" data-target="#myModal-1"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in" ></span> Login</a></li>
+              </ul>
+             
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <div class="container-fluid main-container" >
+      <!-- Login Screen -->
+      <div class="modal fade popup-color" id="myModal" role="dialog"s>
+        <div class="modal-dialog">    
+      <!-- Modal content-->                 
+                <div class="wrapper">
+                  <form class="form-signin">       
+                    <h2 class="form-signin-heading">Please login</h2>
+                    <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
+                    <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
+                    <label class="checkbox">
+                      <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
+                    </label>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>   
+                  </form>
+              </div>  
+            </div>
+        </div>  
+
+        <div class="modal fade popup-color" id="myModal-1" role="dialog">
+        <div class="modal-dialog">
+    
+      <!-- Registration Screen -->            
+                <div class="main-login main-center">
+                    <form class="form-horizontal" method="post" action="#">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h2 class="form-signin-heading">Sign Up</h2>                   
+                        <div class="form-group">
+                            <label for="name" class="cols-sm-2 control-label">Your Name</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Name"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="cols-sm-2 control-label">Your Email</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="username" class="cols-sm-2 control-label">Username</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password" class="cols-sm-2 control-label">Password</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                    <input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                    <input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group ">
+                            <button type="button" class="btn btn-primary btn-lg btn-block login-button">Register</button>
+                        </div>
+                        
+                    </form>
+                </div>
+          </div>
+        </div> 
+
+        <div class="row">
+          <div class="col-md-offset-1 col-md-10 delivery-page">
+            <h4>Hey, Your order <span>#1004 </span> info:</h4>
+            <div class="table-responsive product-detail">
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th>Product</th>
+                    <th>QTY</th>
+                    <th>Tracking No.</th>
+                    <th>Tracking Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>iPhone</td>
+                    <td>1</td>
+                    <td>RO0239987</td>
+                    <td><a href="#" class="transit">In Transit</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Samsung Galaxy Note 2</td>
+                    <td>1</td>
+                    <td>RO0239988</td>
+                    <td><a href="#" class="transit">In Transit</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Samsung Galaxy Note 2 refubrished</td>
+                    <td>1</td>
+                    <td>RO0242687</td>
+                    <td><a href="#">Ordered</a></td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+
+            <div class="row horizontal"></div>
+
+            <div class="row">
+              <div class=" col-12-xs delivery-status">
+                <h2>RO0239987 is <span class="transit">in Transit</span></h2>
+                <span>Your order has been accepted or picked up from the shiper. The Shipment  is on its way.</span>
+
+                <div class="col-sm-12 status-detail">
+                  <div class="col-xs-3 col-sm-4 status">
+                    <div class="order-img">
+                      <img src="images/order.png"  alt="Cinque Terre">
+                    </div> 
+                    <div class="caption">
+                      <p>Ordered</p>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-3 status">
+                    <div class="order-img">
+                      <img src="images/in_transit.png"  alt="Cinque Terre">
+                    </div>
+                    <div class="caption">
+                      <p>In Transit</p>
+                    </div> 
+                  </div>
+
+                  <div class="col-xs-3 col-sm-4 status">
+                    <div class="order-img">
+                      <img src="images/pickup.png"  alt="Cinque Terre"> 
+                    </div>
+                    <div class="caption">
+                      <p>Pick Up</p>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-2 col-sm-1 status">
+                    <div class="order-img">
+                      <img src="images/delivered.png"  alt="Cinque Terre"> 
+                    </div>
+                    <div class="caption">
+                      <p>Delivered</p>
+                    </div>
+                  </div>
+                   <div class="progress bar" >
+                      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                      </div>
+                    </div>
+
+                </div>
+
+
+                 
+                <!-- <div class="row horizontal"></div> -->
+
+                <table class="table product-status">
+                  <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Status</th>
+                    <th>Info</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>2017-04-07 14:10</td>
+                      <td><b>In Transit</b> (Sector 11, Panchkula)</td>
+                      <td>In Transit</td>
+                    </tr>
+
+                    <tr>
+                      <td>2017-04-07 14:30</td>
+                      <td><b>In Transit</b> (Sector 11, Panchkula)</td>
+                      <td>In Transit</td>
+                    </tr>
+                    
+                    <tr class="text-center show-more">
+                      <td></td>
+                      <td><a href="#">Show More</a></td>
+                      <td></td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="row horizontal"></div>
+
+              <div class="seller-msg">
+                <h4><b>Seller Message Goes Here</b></h4>
+                <p>If you ensure your package  has been delivered successfully. Please ignore this notice. However, if you haven't received your package. We've advice you notice the recipient to contact with the carrier redelivery or pick it up. if you ensure your package has been delivered successfully. Please ignore this.</p>
+              </div>
+
+
+          </div>
+        </div>
+
+
+
+     <div class="row footer-row">
+
+        <div class="col-sm-12 footer">
+             <span>&copy; 2017 Amigos Accessorize.<br/>This website is under developmen. All Images are as placeholder images.</span>          
+        </div>        
+      </div>   
+  </div>
+  </body>
+</html>
