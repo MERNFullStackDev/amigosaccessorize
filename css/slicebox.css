@@ -1,0 +1,76 @@
+.top-banner .wrapper {
+	position: relative;
+	width: 100%;
+	padding: 0 50px;
+	margin: 0 auto;
+}
+
+/* Slicebox Style */
+.top-banner .sb-slider {
+	margin: 10px auto;
+	overflow: hidden;
+	list-style-type: none;
+	padding: 0;
+}
+
+.top-banner .sb-slider li {
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+.top-banner .sb-slider li > a {
+	outline: none;
+}
+
+.top-banner .sb-slider li > a img {
+	border: none;
+}
+
+.top-banner .sb-slider img {
+	display: block;
+	max-width: 992px;
+	max-height: 420px;
+	margin: 0 auto;
+
+}
+.top-banner .sb-perspective {
+	position: relative;
+}
+
+.top-banner .sb-perspective > div {
+	position: absolute;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+	-webkit-backface-visibility : hidden;
+	-moz-backface-visibility : hidden;
+	-o-backface-visibility : hidden;
+	-ms-backface-visibility : hidden;
+	backface-visibility : hidden;
+}
+
+.top-banner .sb-side {
+	margin: 0;
+	display: block;
+	position: absolute;
+
+	-moz-backface-visibility : hidden;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+/*@media  screen and (max-width: 768px){
+	.top-banner .sb-slider img {
+		max-width:none;
+		height: none;
+	}
+}*/
